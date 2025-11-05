@@ -2,26 +2,27 @@ A novel quantitative finance framework that leverages hyperbolic geometry and ev
 
 🔬 Research Innovation: First application of hyperbolic multi-agent embeddings for practical portfolio optimization with real-world constraints.
 
-🌟 What Makes This Different?
+What Makes This Different?
 Traditional portfolio optimization (Markowitz) operates in Euclidean space, but financial markets exhibit hierarchical relationships and complex dependencies that are better captured in hyperbolic space.
 
-🎯 Key Innovations
-🔄 Hyperbolic Geometry: Poincaré ball model for natural representation of hierarchical risk-return relationships
+Key Innovations
+Hyperbolic Geometry: Poincaré ball model for natural representation of hierarchical risk-return relationships
 
-🤖 Multi-Agent Embeddings: Fuses economic, sentiment, risk, and regime factors as separate agents
+Multi-Agent Embeddings: Fuses economic, sentiment, risk, and regime factors as separate agents
 
-🧬 Evolutionary Optimization: Robust portfolio selection with real-world constraints
+Evolutionary Optimization: Robust portfolio selection with real-world constraints
 
-📊 Statistical Validation: Comprehensive backtesting and bootstrap significance testing
+Statistical Validation: Comprehensive backtesting and bootstrap significance testing
 
-📊 Performance Highlights
+Performance Highlights
 Metric	Hyperbolic	Markowitz	Improvement
-Sharpe Ratio	0.3564	0.2807	+27.0% 🔥
-Annual Return	4.84%	2.74%	+76.6% 🚀
-Sortino Ratio	0.4571	0.3782	+20.9% 📈
-Calmar Ratio	0.1647	0.1186	+38.9% ⚡
+Sharpe Ratio	0.3564	0.2807	+27.0% 
+Annual Return	4.84%	2.74%	+76.6% 
+Sortino Ratio	0.4571	0.3782	+20.9% 
+Calmar Ratio	0.1647	0.1186	+38.9% 
 Win Rate	51.74%	50.37%	+1.37% ✅
-🚀 Quick Start
+
+Quick Start
 Installation
 bash
 git clone https://github.com/yourusername/hyperbolic-portfolio-optimization.git
@@ -66,14 +67,14 @@ results.create_visualizations()
 📁 Repository Structure
 text
 hyperbolic-portfolio-optimization/
-├── 📊 docs/                    # Research documentation
-├── 🔧 src/                     # Core implementation
+├──  docs/                    # Research documentation
+├──  src/                     # Core implementation
 │   ├── core/                  # Hyperbolic geometry & portfolio logic
 │   ├── data/                  # Market data fetching & processing
 │   ├── optimization/          # Evolutionary algorithms
 │   ├── analysis/              # Backtesting & statistical tests
 │   └── utils/                 # Configuration & helpers
-├── 📈 examples/               # Usage examples & demos
-├── 📁 tests/                  # Comprehensive test suite
-├── 📊 results/                # Performance results & visualizations
-└── 📋 config/                 # Configuration files
+├── examples/               # Usage examples & demos
+├── tests/                  # Comprehensive test suite
+├── results/                # Performance results & visualizations
+└── config/                 # Configuration files
